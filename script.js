@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // 2. Typewriter Effect
   const typewriterElement = document.getElementById('typewriter');
   const roles = [
-    'Full-Stack Developer',
-    'Systems & Architecture Enthusiast',
-    'Real-Time Concurrency Builder',
-    'Computer Science & Engineering Student'
+    'Data Analytics & Evaluation Enthusiast',
+    'AI-Driven Problem Solver & Researcher',
+    'Bioinformatics & Computational Biology Explorer',
+    'Full-Stack Developer & Automation Builder'
   ];
   let roleIndex = 0;
   let charIndex = 0;

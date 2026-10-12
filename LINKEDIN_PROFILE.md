@@ -1,221 +1,202 @@
-# LinkedIn Profile Strategy & Blueprint
-**Target Profile:** [B. M. Muktadir Wafi](https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/)  
-**GitHub:** [@RedRabies](https://github.com/RedRabies)  
-**Institution:** BRAC University — Department of Computer Science & Engineering  
-**Prepared:** October 2026  
+# B. M. Muktadir Wafi — LinkedIn Profile Master Blueprint
+**Target Profile:** [linkedin.com/in/b-m-muktadir-wafi-406b11439](https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/)  
+**GitHub:** [github.com/RedRabies](https://github.com/RedRabies)  
+**Academic Background:** Computer Science & Engineering Undergraduate @ BRAC University (ID: 22301737)  
+**Primary Focus:** Data Analytics & Evaluation • AI Research & Problem Solving • Bioinformatics • Process Automation  
 
 ---
 
-## 📌 1. Headline Options (Pick one that fits your current job search)
+## 📌 ১. LinkedIn Headline (প্রোফাইলের নামের নিচের অংশ)
 
-### Option A: Balanced Full-Stack & Systems (Recommended)
-> **CSE Undergraduate at BRAC University | Full-Stack Developer (MERN) | Systems & Concurrency Enthusiast | Building Real-Time & Resilient Web Apps**
+আপনার আগ্রহের সাথে মানানসই ৩টি বিকল্প নিচে দেওয়া হলো। আপনার সবচেয়ে পছন্দেরটি বেছে নিয়ে LinkedIn-এর **Headline** ফিল্ডে পেস্ট করুন:
 
-### Option B: High-Impact Software Engineering (Internship / Junior Role Focused)
-> **Software Engineering Student @ BRAC University | Node.js, Express, React, MongoDB, Socket.IO | Backend Architecture & Real-Time APIs**
+### Option A: ডেটা, এআই ও বায়োইনফরমেটিক্স ফোকাসড (সর্বোত্তম ও সুনির্দিষ্ট)
+> **CSE @ BRAC University | Passionate about Data Analytics, AI Research & Problem Solving | Exploring Bioinformatics & Process Automation | Python, ML, Full-Stack**
 
-### Option C: Software & Data Analytics Hybrid
-> **CSE Undergraduate @ BRAC University | Full-Stack Software Development | Machine Learning & Data Analytics | Open to Software & Data Roles**
+### Option B: এআই রিসার্চ ও প্রবলেম সলভিং ফোকাসড
+> **AI & Data Enthusiast | CSE Undergraduate @ BRAC University | Data Evaluation & Pipeline Automation | Researching AI-Driven Solutions & Computational Biology**
+
+### Option C: সফটওয়্যার ও ডেটা হাইব্রিড
+> **Computer Science & Engineering Student | Data Analysis & Modification | Machine Learning & Automation | Full-Stack Web Systems | Lifelong Curiosity for Bioinformatics**
 
 ---
 
-## 📝 2. About Section
-
-Copy and paste this directly into your LinkedIn **About** summary:
+## 📝 ২. About Section (কপি করে About বক্সে বসিয়ে দিন)
 
 ```markdown
-I am a Computer Science & Engineering undergraduate at BRAC University with a passion for designing reliable web backends, real-time distributed workflows, and exploring low-level computer architecture.
+I am a Computer Science & Engineering undergraduate at BRAC University driven by a relentless curiosity about how data shapes the world and how intelligent systems can automate solutions to real problems.
 
-Over the course of my university degree, I have transitioned theoretical concepts in algorithms, database design, operating systems, and computer architecture into tangible, working software. My experience spans building full-stack platforms from the ground up, implementing high-concurrency event pipelines with Socket.IO, designing normalized and NoSQL database schemas, and optimizing algorithms for cache and memory efficiency.
+My core interests center on Data Analytics, Data Evaluation, and Data Transformation. I love delving into messy datasets, analyzing patterns, cleaning and modifying features, and evaluating what the numbers actually reveal. Alongside analytics, I am passionate about Artificial Intelligence and Machine Learning—not just studying algorithms conceptually, but leveraging AI for rigorous research, problem-solving, and workflow automation.
 
-Whether architecting emergency coordination pipelines like SentryAid, engineering modular RESTful APIs for collaborative platforms like Micro SkillShare, or developing machine learning classification models, I believe in writing modular, defensible code and understanding what happens under the hood.
+I also hold a lifelong fascination with Biology. Bridging computer science with the life sciences, I have a deep inclination toward Bioinformatics and computational biology—applying data pipelines, machine learning, and statistical analysis to uncover insights in biological systems.
 
-🛠️ Core Technical Competencies:
-• Languages: JavaScript (ES6+), C / C++, Python, Java, HTML5, CSS3
-• Backend & Real-Time: Node.js, Express.js, Socket.IO, RESTful APIs, MVC Pattern
-• Databases: MongoDB / Mongoose, SQL, Relational Schema Modeling
-• Systems & Tools: Linux, Git & GitHub, RISC-V, Flex & Bison, Postman, VS Code
-• Domains of Interest: Scalable Web Systems, Real-Time Concurrency, Computer Architecture, Data Analytics & ML
+At the same time, I believe in building systems where things simply run seamlessly. Whether designing full-stack web platforms (Node.js/Express, MERN), architecting emergency coordination networks (SentryAid), or training predictive classification models, I aim for end-to-end automation and engineering rigor.
 
-I am always keen to collaborate on innovative software solutions, contribute to open-source initiatives, and connect with engineers, researchers, and tech enthusiasts.
+🔬 What Drives Me:
+• Data Analytics & Evaluation: Exploratory analysis, feature modification, statistical metrics, dataset cleansing
+• AI & Machine Learning: Applied research, predictive modeling (Scikit-Learn, Python), intelligent problem-solving
+• Bioinformatics & Life Sciences: Computational biology, biological data pipelines, genomics analytics
+• Automation & Workflow Optimization: Scripting, automated escalation pipelines, event-driven architectures
+• Systems & Software: Full-stack web development (Node.js, Express, MongoDB, React), C/C++, Linux, Git
 
-📍 Dhaka, Bangladesh | 🌐 Portfolio: https://github.com/RedRabies
+I am actively open to collaborations, research discussions, internships, and conversations in data analytics, AI applications, bioinformatics, and software engineering.
+
+📍 Dhaka, Bangladesh
+🌐 GitHub: https://github.com/RedRabies
+✉️ Contact: wafibiswas@gmail.com
 ```
 
 ---
 
-## 🚀 3. Projects Section (For LinkedIn "Projects" & "Featured")
+## 🚀 ৩. Featured Section (লিঙ্কডইন প্রোফাইলের ওপরের পিন করা অংশ)
 
-Add each of these under LinkedIn’s **Projects** section. Each project has a clear problem statement, technology stack, and verified contribution bullets.
+LinkedIn-এ **Add profile section** -> **Recommended** -> **Add featured**-এ গিয়ে **Links** অপশন দিয়ে নিচের ৪টি লিংক পিন করে দিন:
 
----
-
-### Project 1: Micro SkillShare Platform (Collaborative Project)
-- **Role:** Backend Engineer & Core Contributor
-- **Project URL:** `https://github.com/Shezz799/Micro-SkillShare-Platform`
-- **Backend Repo:** `https://github.com/RedRabies/micro-skill-backend`
-- **Live Demo:** `https://cse-471-project-chi.vercel.app/`
-- **Associated with:** BRAC University (CSE471 — System Analysis & Design)
-- **Description:**
-```markdown
-Contributed to a full-stack peer-to-peer skill exchange platform designed to connect learners and mentors for micro-learning sessions and mutual skill assistance.
-
-Key Contributions:
-• Architected and implemented the core Node.js and Express.js REST API service using a modular MVC design pattern.
-• Designed and structured Mongoose data models for Help Requests, Streaks, Skills, and User Profiles.
-• Developed business logic controllers for managing user help requests, status transitions, and gamified daily activity streaks.
-• Configured CORS, environment variable handling, and documented all endpoints with comprehensive Postman test collections.
-• Collaborated closely in a multi-developer team integrating the client interface with server routes.
-```
+1. **GitHub Profile**:
+   - **URL:** `https://github.com/RedRabies`
+   - **Title:** `GitHub: B. M. Muktadir Wafi (@RedRabies)`
+   - **Description:** `Public repositories spanning Data Analytics, Machine Learning, Systems, and Full-Stack Web Development.`
+2. **SentryAid SOS**:
+   - **URL:** `https://github.com/RedRabies/SentryAid`
+   - **Title:** `SentryAid — Decentralized Emergency Response Network`
+   - **Description:** `Decentralized public safety network integrating Android native mobile client, Node.js backend, proximity dispatch, and risk heatmaps.`
+3. **Hotel Booking Cancellation ML**:
+   - **URL:** `https://github.com/RedRabies/CSE422-Hotel-Booking-Cancellation-ML`
+   - **Title:** `Hotel Booking Cancellation Prediction using Machine Learning`
+   - **Description:** `End-to-end machine learning project focusing on exploratory data analysis, data transformation, and supervised classification.`
+4. **Micro SkillShare Backend**:
+   - **URL:** `https://github.com/RedRabies/micro-skill-backend`
+   - **Title:** `Micro SkillShare Platform — Backend API Service`
+   - **Description:** `Modular Node.js/Express REST API service powering peer-to-peer micro-learning exchange.`
 
 ---
 
-### Project 2: SentryAid SOS — Decentralized Emergency Response Network
-- **Role:** Lead Architect & Backend Developer
-- **Associated with:** BRAC University (Thesis / Capstone Research)
-- **Description:**
-```markdown
-Researched and prototyped an emergency response and public safety platform designed to eliminate the isolation of traditional panic buttons by connecting victims directly to verified nearby responders.
+## 💼 ৪. Projects Section (লিঙ্কডইন Projects-এ একটি একটি করে যোগ করুন)
 
-Key Highlights:
-• Designed a high-concurrency backend leveraging Node.js, Express.js, and MongoDB with isolated micro-modules for Identity, Emergency, and Moderation.
-• Integrated zero-polling real-time communication via Socket.IO to instantly broadcast alerts to nearby volunteers within a geographic radius.
-• Engineered an automated 5-minute escalation protocol that immediately notifies pre-registered emergency contacts and admin dashboards if an SOS is unaccepted.
-• Formulated a predictive safety heatmap framework aggregating resolved incident coordinates to highlight high-risk urban danger zones for women and vulnerable populations.
-• Authored and presented a comparative architectural analysis defending system resilience against local and international emergency benchmarks.
-```
+LinkedIn প্রোফাইলে গিয়ে **Add profile section** -> **Accomplishments / Additional** -> **Add project** ক্লিক করে নিচের প্রজেক্টগুলো তথ্যসহ পেস্ট করুন:
 
 ---
 
-### Project 3: AinAdvocate — Legal Information & Assistance Web Application
-- **Role:** Full-Stack Developer (Collaborative Project)
-- **Project URL:** `https://github.com/RedRabies/AinAdvocate`
-- **Associated with:** BRAC University
-- **Description:**
-```markdown
-Collaborated on a legal assistance and legal information web application built to streamline access to legal rights, consultation workflows, and dispute resolution information.
-
-Key Highlights:
-• Contributed to frontend and backend module implementations within a structured MERN / MVC architecture.
-• Implemented client-side responsive views and integrated them with server-side endpoints for consultation inquiries and case categorizations.
-• Managed version control, Git branching workflows, and feature integration within a collaborative team repository.
-```
-
----
-
-### Project 4: Hotel Booking Cancellation Prediction Using Machine Learning
-- **Role:** ML Engineer & Data Analyst
+### Project ১: Hotel Booking Cancellation Prediction (Data Analysis & ML)
+- **Project Name:** `Hotel Booking Cancellation Prediction Using Machine Learning`
+- **Associated with:** `BRAC University (CSE422)`
 - **Project URL:** `https://github.com/RedRabies/CSE422-Hotel-Booking-Cancellation-ML`
-- **Associated with:** BRAC University (CSE422 — Artificial Intelligence & Machine Learning)
 - **Description:**
 ```markdown
-Developed an end-to-end Machine Learning pipeline to predict advance hotel booking cancellations, mitigating revenue leakage and operational allocation issues.
+An end-to-end Data Analytics and Machine Learning project focused on evaluating customer reservation behavior and predicting cancellations to minimize revenue loss in the hospitality industry.
 
 Key Highlights:
-• Conducted comprehensive Exploratory Data Analysis (EDA) uncovering key cancellation drivers including customer lead times, deposit structures, and market segments.
-• Executed preprocessing pipelines incorporating outlier detection, missing value imputation, categorical encoding, and feature scaling.
-• Trained and benchmarked multiple supervised classification models including Logistic Regression, Decision Trees, Random Forest, and Naive Bayes.
-• Evaluated performance using Precision, Recall, F1-Score, and ROC-AUC metrics to ensure robust generalization on unseen reservation data.
+• Data Analytics & Evaluation: Conducted in-depth Exploratory Data Analysis (EDA) on over 119,000 reservation records, assessing lead time distributions, deposit types, and seasonal trends.
+• Data Modification & Engineering: Handled missing value imputation, categorical encoding, feature scaling, and correlation matrix evaluation.
+• AI Modeling: Trained and benchmarked multiple supervised classification models including Random Forest, Decision Trees, Logistic Regression, and Naive Bayes using Scikit-Learn.
+• Performance Metrics: Evaluated models using Precision, Recall, F1-Score, and ROC-AUC curves to guarantee generalizability.
 ```
 
 ---
 
-### Project 5: C-Subset Compiler: Lexer, Parser & Symbol Table
-- **Role:** Systems & Compiler Developer
+### Project ২: SentryAid SOS — Decentralized Emergency Response Network
+- **Project Name:** `SentryAid SOS — Decentralized Emergency Coordination Platform`
+- **Associated with:** `BRAC University (Thesis / Coursework)`
+- **Project URL:** `https://github.com/RedRabies/SentryAid`
+- **Description:**
+```markdown
+Engineered an end-to-end public safety coordination platform bridging isolated panic alarms with verified nearby volunteer responders and automated emergency dispatch.
+
+Key Highlights:
+• Full-Stack Architecture: Built with a native Android mobile client (Java/XML) and a high-concurrency Node.js/Express MVC backend connected to MongoDB.
+• Process Automation: Formulated an automated 5-minute escalation protocol that auto-notifies emergency family contacts and admin dashboards when alerts are unattended.
+• Spatial Data & Heatmaps: Aggregated historical emergency coordinates into spatial frequency metrics to render predictive risk heatmaps for urban safety.
+• Real-Time Dispatch: Implemented zero-polling real-time event distribution and proximity matching across geographic radii.
+```
+
+---
+
+### Project ৩: Micro SkillShare Platform (Collaborative Project)
+- **Project Name:** `Micro SkillShare Platform — RESTful Backend Service`
+- **Associated with:** `BRAC University (CSE471)`
+- **Project URL:** `https://github.com/RedRabies/micro-skill-backend`
+- **Description:**
+```markdown
+Contributed as the Backend Engineer for a collaborative peer-to-peer knowledge exchange web application developed for System Analysis and Design.
+
+Key Highlights:
+• Architected the standalone Node.js and Express.js REST API service using a clean MVC design pattern.
+• Designed Mongoose schemas and relationships for Help Requests, user gamification (Streaks), Skills, and Profiles.
+• Developed route controllers, input validation rules, and environment configurations.
+• Built comprehensive endpoint testing suites and documentation using Postman.
+```
+
+---
+
+### Project ৪: C-Subset Compiler: Lexer, Parser & Symbol Table
+- **Project Name:** `C-Subset Compiler: Lexical Analyzer & Parser`
+- **Associated with:** `BRAC University (CSE420)`
 - **Project URL:** `https://github.com/RedRabies/CSE420-Compiler-Lexer-Parser`
-- **Associated with:** BRAC University (CSE420 — Compiler Design)
 - **Description:**
 ```markdown
-Constructed a complete lexical analyzer and context-free grammar syntax parser for a subset of the C programming language using Flex and Bison.
+Implemented a complete front-end compiler pipeline for a subset of the C programming language using Flex and Bison.
 
 Key Highlights:
-• Implemented regular expression token rules in Flex for keywords, identifiers, constants, arithmetic/relational operators, and string literals.
-• Engineered a context-free grammar specification in Bison with LALR parser tables and grammar conflict resolution.
-• Developed a custom hash-table based Symbol Table in C++ featuring nested scope tracking, type checking, and semantic validation.
-• Built detailed diagnostic logging capturing token emission streams, parse tree derivations, and line-precise syntax error messages.
+• Regular expression tokenization for keywords, identifiers, constants, and operators with line-tracking error recovery.
+• Context-free grammar specification in Bison with LALR syntax parsing tables.
+• Custom C++ Symbol Table featuring hash table lookup, nested scope management, and semantic type validation.
 ```
 
 ---
 
-### Project 6: Interactive TicTacToe Web Application
-- **Role:** Sole Developer
-- **Project URL:** `https://github.com/RedRabies/TicTacToe`
+### Project ৫: AinAdvocate — Legal Information & Assistance Web App
+- **Project Name:** `AinAdvocate — Legal Assistance Web Application`
+- **Associated with:** `BRAC University`
+- **Project URL:** `https://github.com/RedRabies/AinAdvocate`
 - **Description:**
 ```markdown
-Developed a responsive, lightweight web game exploring DOM manipulation and state control in JavaScript. Features dynamic turn management, win-condition matrix checks, and clean CSS grid styling.
+Collaborated on a legal information and assistance platform built to streamline dispute categorization and lawyer consultation workflows using a MERN/MVC architecture.
 ```
 
 ---
 
-## 🎓 4. Education Entry
+## 🛠️ ৫. Top Skills to Add on LinkedIn (স্কিলস সেকশন)
 
-**Institution:** BRAC University  
-**Degree:** Bachelor of Science in Computer Science and Engineering (B.Sc. in CSE)  
-**Location:** Dhaka, Bangladesh  
-**Student ID:** 22301737  
-**Relevant Coursework:**
-- Data Structures & Algorithms
-- Object-Oriented Programming (OOP)
-- Operating Systems & System Programming (xv6 RISC-V)
-- Database Management Systems (DBMS)
-- System Analysis & Design (CSE471)
-- Artificial Intelligence & Machine Learning (CSE422)
-- Compiler Design (CSE420)
-- Computer Architecture & Cache Design (CSE340)
+LinkedIn-এর **Skills** সেকশনে এই দক্ষতাগুলো যোগ করুন (রিক্রুটারদের সার্চ ফিল্টারে এগুলো দারুণ কাজ করবে):
 
----
-
-## 💡 5. Recommended LinkedIn Skills (Add these to your profile)
-
-Add these top skills so recruiters searching for junior developers can find you:
-
-1. **JavaScript**
-2. **Node.js**
-3. **Express.js**
-4. **MongoDB**
-5. **React.js**
-6. **Socket.IO**
-7. **REST APIs**
-8. **C++**
-9. **Python**
-10. **Machine Learning**
-11. **Git & GitHub**
-12. **Object-Oriented Programming (OOP)**
-13. **Data Structures**
-14. **Computer Architecture**
-15. **System Design & Analysis**
+1. **Data Analysis**
+2. **Data Evaluation & Preprocessing**
+3. **Machine Learning**
+4. **Artificial Intelligence (AI)**
+5. **Python (Programming Language)**
+6. **Pandas / NumPy**
+7. **Bioinformatics (Interest & Exploration)**
+8. **Process Automation**
+9. **Node.js & Express.js**
+10. **MongoDB & Mongoose**
+11. **SQL & Relational Databases**
+12. **Git & GitHub**
+13. **C++**
+14. **System Architecture**
+15. **REST APIs**
 
 ---
 
-## 📌 6. What to Pin in your LinkedIn "Featured" Section
-1. **Link to Portfolio Website**: Your personal interactive portfolio.
-2. **GitHub Profile Link**: `https://github.com/RedRabies`
-3. **Micro SkillShare Platform**: Link to demo (`https://cse-471-project-chi.vercel.app/`) and repo.
-4. **SentryAid Presentation / Report**: Upload your presentation slide or architectural overview PDF.
-5. **AinAdvocate Repo**: `https://github.com/RedRabies/AinAdvocate`.
+## 📢 ৬. LinkedIn Announcement Post (কপি করে পোস্ট করতে পারেন)
 
----
-
-## 📣 7. Launch Post Template for LinkedIn
-
-When you are ready to post an update on LinkedIn, use this template:
+আপনার প্রোফাইলে একটি সুন্দর পোস্ট দিয়ে আপডেট জানানোর জন্য এই ড্রাফটটি ব্যবহার করতে পারেন:
 
 ```markdown
-🚀 Excited to share what I've been building throughout my Computer Science & Engineering journey at BRAC University!
+🚀 Excited to share an update on my technical journey and projects!
 
-Over the past few semesters, I’ve had the opportunity to dive deep into both full-stack software development and low-level computer systems:
+As a Computer Science & Engineering undergraduate at BRAC University, my core curiosity is centered on Data Analytics, AI-driven Research & Problem Solving, and exploring how computational methods intersect with Bioinformatics and Process Automation.
 
-🔹 Micro SkillShare Platform: A peer-to-peer knowledge sharing web app where I architected the Node.js/Express REST API backend, Mongoose data models, and request controllers.
-🔹 SentryAid SOS: A decentralized emergency response network designed to connect victims with verified nearby responders in real time using Socket.IO and predictive safety heatmaps.
-🔹 AinAdvocate: A collaborative legal assistance web platform built with MERN & MVC architecture.
-🔹 Machine Learning: Predictive modeling for hotel booking cancellations using Scikit-Learn.
-🔹 Systems Engineering: Implementing custom lexical analyzers & parsers (Flex/Bison) and exploring cache-conscious architectural optimization.
+Over the past few semesters, I have developed and published multiple projects:
 
-I've organized all my code repositories and launched my interactive portfolio website. Check out my work on GitHub:
+📊 Hotel Booking Cancellation ML: An end-to-end data analytics & supervised machine learning project evaluating booking trends, feature distributions, and predicting cancellations with Scikit-Learn.
+🛡️ SentryAid: A decentralized emergency coordination platform combining an Android client with a Node.js backend, automated 5-minute escalation workflows, and predictive danger heatmaps.
+🤝 Micro SkillShare Backend: A peer-to-peer knowledge-sharing REST API built with Node.js, Express, and MongoDB.
+⚙️ Compiler Engineering: A C-subset lexical analyzer & parser using Flex, Bison, and a custom C++ Symbol Table.
+
+I have organized all my source code, documentation, and research across GitHub. Feel free to explore my repositories and share your feedback:
 👉 https://github.com/RedRabies
-👉 Portfolio: [Your Portfolio URL]
 
-A big shoutout to my teammates and faculty mentors who made these collaborative projects possible. Looking forward to new opportunities, collaborations, and continued learning!
+Looking forward to connecting with fellow engineers, researchers in data science and bioinformatics, and tech innovators!
 
-#ComputerScience #SoftwareEngineering #WebDevelopment #NodeJS #React #MERN #MachineLearning #BRACUniversity #Coding
+#DataAnalytics #MachineLearning #ArtificialIntelligence #Bioinformatics #Python #Automation #NodeJS #BRACUniversity #SoftwareEngineering
 ```
