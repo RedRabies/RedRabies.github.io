@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B. M. Muktadir Wafi | Portfolio & Projects</title>
+  <meta name="description" content="Portfolio of B. M. Muktadir Wafi - Software Developer, Systems Enthusiast, and Computer Science & Engineering Undergraduate at BRAC University." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/profile.jpg" />
+  
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Glow & Grid Canvas -->
+  <div class="background-effects">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-bracket">&lt;</span><span class="logo-text">Wafi</span><span class="logo-accent">.dev</span><span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a>
+        <a href="#resume" class="nav-link"><i class="fa-solid fa-file-lines"></i> CV / Resume</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/RedRabies" target="_blank" rel="noopener noreferrer" class="social-nav-btn" title="GitHub Profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/" target="_blank" rel="noopener noreferrer" class="social-nav-btn" title="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>BRAC University • Department of CSE (ID: 22301737)</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">B. M. Muktadir Wafi</span>
+          </h1>
+
+          <div class="dynamic-roles">
+            <span class="role-prefix">&gt; </span>
+            <span id="typewriter" class="typewriter-text"></span>
+            <span class="cursor">|</span>
+          </div>
+
+          <p class="hero-bio">
+            <span class="quote-symbol">“</span>
+            Caffeine for pulse, curiosity for soul — born from chaos, I craft control.
+            <span class="quote-symbol">”</span>
+          </p>
+
+          <p class="hero-location">
+            <i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh 
+            <span class="divider">•</span> 
+            <i class="fa-solid fa-graduation-cap"></i> Computer Science & Engineering Undergraduate
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Repositories
+            </a>
+            <a href="assets/cv.pdf" download="B_M_Muktadir_Wafi_CV.pdf" class="btn btn-secondary" id="hero-cv-btn">
+              <i class="fa-solid fa-arrow-down-to-bracket"></i> Download CV
+            </a>
+            <a href="https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="Connect on LinkedIn">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/RedRabies" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="Explore GitHub">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-card">
+            <div class="avatar-glow"></div>
+            <div class="avatar-wrapper">
+              <img src="assets/profile.jpg" alt="B. M. Muktadir Wafi" class="profile-image" />
+            </div>
+            <div class="floating-badge badge-top">
+              <i class="fa-solid fa-terminal"></i>
+              <span>Full-Stack & Systems</span>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Real-Time Concurrency</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 01. Profile & Focus</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-column">
+            <p class="about-lead">
+              I am a <strong>Computer Science & Engineering</strong> student at BRAC University, driven by building resilient full-stack web applications, real-time event systems, and exploring low-level computer architecture.
+            </p>
+            <p>
+              Throughout my academic journey, I have prioritized writing solid, practical code. My work spans high-concurrency emergency coordination platforms (<strong>SentryAid SOS</strong>), collaborative micro-learning platforms (<strong>Micro SkillShare</strong>), legal assistance web tools (<strong>AinAdvocate</strong>), applied machine learning models, and low-level compiler and cache-conscious systems.
+            </p>
+            <p>
+              I take pride in clear technical communication, understanding what happens behind the abstractions, and working transparently in multidisciplinary teams.
+            </p>
+
+            <div class="quick-facts-grid">
+              <div class="fact-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <div class="fact-info">
+                  <h4>Full-Stack & REST APIs</h4>
+                  <p>MERN, WebSockets, MVC Architecture</p>
+                </div>
+              </div>
+              <div class="fact-card">
+                <i class="fa-solid fa-microchip"></i>
+                <div class="fact-info">
+                  <h4>Systems & Compilers</h4>
+                  <p>Flex & Bison, C/C++, Cache Analysis</p>
+                </div>
+              </div>
+              <div class="fact-card">
+                <i class="fa-solid fa-brain"></i>
+                <div class="fact-info">
+                  <h4>Machine Learning & Data</h4>
+                  <p>Supervised Classification, EDA, Scikit-Learn</p>
+                </div>
+              </div>
+              <div class="fact-card">
+                <i class="fa-solid fa-users"></i>
+                <div class="fact-info">
+                  <h4>Collaborative Engineering</h4>
+                  <p>Git Branching, Team Integration, Clean APIs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-stats-column">
+            <div class="stat-box">
+              <div class="stat-number">6+</div>
+              <div class="stat-label">Academic & Practical Projects Cataloged</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">BRACU</div>
+              <div class="stat-label">B.Sc. in Computer Science & Engineering (ID: 22301737)</div>
+            </div>
+            <div class="stat-box highlight-stat">
+              <div class="stat-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="stat-label">GitHub Portfolio</div>
+              <a href="https://github.com/RedRabies" target="_blank" rel="noopener noreferrer" class="stat-link">@RedRabies <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="stat-box highlight-stat">
+              <div class="stat-icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div class="stat-label">LinkedIn Profile</div>
+              <a href="https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/" target="_blank" rel="noopener noreferrer" class="stat-link">Connect with Wafi <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 02. University & Practical Projects</span>
+          <h2 class="section-title">Projects & Repositories</h2>
+          <div class="section-underline"></div>
+          <p class="section-subtitle">Click the buttons on each card to visit the corresponding GitHub repository or live application.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Micro SkillShare Platform -->
+          <article class="project-card featured-project">
+            <div class="project-header-bar">
+              <span class="project-badge team-badge"><i class="fa-solid fa-users"></i> Collaborative Project</span>
+              <span class="project-category">CSE471 • Full-Stack Web Platform</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Micro SkillShare Platform</h3>
+              <p class="project-desc">
+                A collaborative peer-to-peer web platform designed to facilitate micro-learning, skill discovery, user help requests, and mutual assistance. Built by our team for <strong>System Analysis and Design (CSE471)</strong> at BRAC University.
+              </p>
+              
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span><strong>My Core Contribution:</strong> Architected the standalone <strong>Node.js & Express.js REST API service</strong> using a modular MVC design pattern.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span><strong>Data Modeling:</strong> Designed Mongoose schemas and relationships for <code>HelpRequest</code>, <code>Streak</code> (gamification), and User Profiles in MongoDB.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span><strong>Testing & Verification:</strong> Authored complete endpoint testing collections and workflows in Postman.</span>
+                </div>
+              </div>
+
+              <div class="tech-tag-list">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">MongoDB & Mongoose</span>
+                <span class="tech-tag">React 18 / Vite</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">Postman</span>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <a href="https://github.com/RedRabies/micro-skill-backend" target="_blank" rel="noopener noreferrer" class="project-btn primary-btn" title="View My Backend Repository">
+                <i class="fa-brands fa-github"></i> My Backend Repo
+              </a>
+              <a href="https://github.com/Shezz799/Micro-SkillShare-Platform" target="_blank" rel="noopener noreferrer" class="project-btn secondary-btn" title="View Full Collaborative Team Repository">
+                <i class="fa-solid fa-code-fork"></i> Main Team Repo
+              </a>
+              <a href="https://cse-471-project-chi.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn outline-btn" title="Visit Live Application">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: SentryAid SOS -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="project-badge"><i class="fa-solid fa-shield-halved"></i> Thesis Research</span>
+              <span class="project-category">Emergency Response & IoT</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SentryAid SOS — Decentralized Emergency Network</h3>
+              <p class="project-desc">
+                Public safety platform tackling panic-button isolation by connecting victims directly with verified nearby responders and automating emergency escalation.
+              </p>
+              
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span><strong>Real-Time Pipeline:</strong> Socket.IO zero-polling live alert streams with GPS volunteer radius scanning in MongoDB.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span><strong>Automated Escalation:</strong> Automated 5-minute escalation to family contacts & admin intervention.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span><strong>Predictive Heatmaps:</strong> Dynamic spatial incident aggregation highlighting urban danger zones.</span>
+                </div>
+              </div>
+
+              <div class="tech-tag-list">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Socket.IO</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Geospatial GPS</span>
+                <span class="tech-tag">Heatmaps</span>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <a href="https://github.com/RedRabies" target="_blank" rel="noopener noreferrer" class="project-btn primary-btn">
+                <i class="fa-brands fa-github"></i> GitHub Profile
+              </a>
+              <a href="#resume" class="project-btn secondary-btn">
+                <i class="fa-solid fa-file-lines"></i> Research Summary
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: AinAdvocate -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="project-badge team-badge"><i class="fa-solid fa-users"></i> Collaborative Project</span>
+              <span class="project-category">Legal Assistance Web App</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">AinAdvocate — Legal Assistance Platform</h3>
+              <p class="project-desc">
+                A collaborative web platform designed to streamline legal information access, dispute resolution guidance, and lawyer consultation inquiries.
+              </p>
+              
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Architected using a full-stack MERN & MVC structure with clean client-server separation.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Integrated consultation forms, legal category routes, and collaborative Git workflow.</span>
+                </div>
+              </div>
+
+              <div class="tech-tag-list">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">MVC</span>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <a href="https://github.com/RedRabies/AinAdvocate" target="_blank" rel="noopener noreferrer" class="project-btn primary-btn" title="View AinAdvocate on GitHub">
+                <i class="fa-brands fa-github"></i> View Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: CSE422 Hotel Booking Cancellation ML -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="project-badge ml-badge"><i class="fa-solid fa-brain"></i> Machine Learning</span>
+              <span class="project-category">CSE422 • Predictive Analytics</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Hotel Booking Cancellation Prediction</h3>
+              <p class="project-desc">
+                An end-to-end Machine Learning pipeline predicting booking cancellations to minimize revenue leakage in the hospitality sector.
+              </p>
+              
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Comprehensive EDA exploring lead times, deposit structures, and customer cancellation behaviors.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Benchmarked Random Forest, Decision Trees, Logistic Regression, and Naive Bayes classifiers.</span>
+                </div>
+              </div>
+
+              <div class="tech-tag-list">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Scikit-Learn</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Jupyter</span>
+                <span class="tech-tag">Classification</span>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <a href="https://github.com/RedRabies/CSE422-Hotel-Booking-Cancellation-ML" target="_blank" rel="noopener noreferrer" class="project-btn primary-btn" title="View ML Project on GitHub">
+                <i class="fa-brands fa-github"></i> View Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: CSE420 Compiler Design -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="project-badge"><i class="fa-solid fa-code"></i> Systems & Compilers</span>
+              <span class="project-category">CSE420 • Lexer & Parser</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">C-Subset Compiler: Lexer & Parser</h3>
+              <p class="project-desc">
+                A lexical analyzer and syntax parser implementation for a subset of the C programming language using Flex and Bison.
+              </p>
+              
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Flex regex tokenization for identifiers, constants, and operators with line tracking.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Bison context-free grammar with custom C++ hash-table based Symbol Table supporting nested scopes.</span>
+                </div>
+              </div>
+
+              <div class="tech-tag-list">
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Flex</span>
+                <span class="tech-tag">Bison / Yacc</span>
+                <span class="tech-tag">Symbol Table</span>
+                <span class="tech-tag">Grammar Parsing</span>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <a href="https://github.com/RedRabies/CSE420-Compiler-Lexer-Parser" target="_blank" rel="noopener noreferrer" class="project-btn primary-btn" title="View Compiler Project on GitHub">
+                <i class="fa-brands fa-github"></i> View Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6: TicTacToe -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="project-badge"><i class="fa-solid fa-gamepad"></i> Game Dev</span>
+              <span class="project-category">Vanilla JavaScript</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Interactive TicTacToe Game</h3>
+              <p class="project-desc">
+                A responsive web game exploring DOM state control, turn switches, dynamic win matrix checks, and interactive CSS grid animations.
+              </p>
+              
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Pure vanilla JavaScript implementation with zero dependencies and smooth UI transitions.</span>
+                </div>
+              </div>
+
+              <div class="tech-tag-list">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3 Grid</span>
+                <span class="tech-tag">DOM Manipulation</span>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <a href="https://github.com/RedRabies/TicTacToe" target="_blank" rel="noopener noreferrer" class="project-btn primary-btn" title="View TicTacToe on GitHub">
+                <i class="fa-brands fa-github"></i> View Repository
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 03. Technical Arsenal</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="skills-filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn" data-filter="backend">Backend & Real-Time</button>
+          <button class="filter-btn" data-filter="data">Data & Machine Learning</button>
+          <button class="filter-btn" data-filter="systems">Systems & Tools</button>
+        </div>
+
+        <div class="skills-cards-grid" id="skills-grid">
+          <!-- Languages -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap"><i class="fa-brands fa-js"></i></div>
+            <div class="skill-info">
+              <h3>JavaScript (ES6+)</h3>
+              <p>Asynchronous runtime, Event Loop, DOM</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-c"></i></div>
+            <div class="skill-info">
+              <h3>C / C++</h3>
+              <p>Memory management, compilers, data structures</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap"><i class="fa-brands fa-python"></i></div>
+            <div class="skill-info">
+              <h3>Python</h3>
+              <p>Data science, scripting & machine learning</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap"><i class="fa-brands fa-java"></i></div>
+            <div class="skill-info">
+              <h3>Java</h3>
+              <p>Object-Oriented Programming & design patterns</p>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap"><i class="fa-brands fa-node-js"></i></div>
+            <div class="skill-info">
+              <h3>Node.js & Express.js</h3>
+              <p>RESTful APIs, MVC architecture, middleware</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="skill-info">
+              <h3>Socket.IO & WebSockets</h3>
+              <p>Real-time bidirectional event streaming</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-database"></i></div>
+            <div class="skill-info">
+              <h3>MongoDB & Mongoose</h3>
+              <p>NoSQL schemas, geospatial index, aggregations</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-server"></i></div>
+            <div class="skill-info">
+              <h3>SQL & Relational DBs</h3>
+              <p>Normalized queries, indexing & ACID transactions</p>
+            </div>
+          </div>
+
+          <!-- Data & ML -->
+          <div class="skill-card" data-category="data">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-brain"></i></div>
+            <div class="skill-info">
+              <h3>Scikit-Learn & ML</h3>
+              <p>Supervised classification, regression, metrics</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="data">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="skill-info">
+              <h3>Pandas & NumPy</h3>
+              <p>Exploratory data analysis & feature engineering</p>
+            </div>
+          </div>
+
+          <!-- Systems & Tools -->
+          <div class="skill-card" data-category="systems">
+            <div class="skill-icon-wrap"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="skill-info">
+              <h3>Git & GitHub</h3>
+              <p>Branching workflows, version tracking, collaboration</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="systems">
+            <div class="skill-icon-wrap"><i class="fa-brands fa-linux"></i></div>
+            <div class="skill-info">
+              <h3>Linux & Shell</h3>
+              <p>POSIX environment, bash scripts, command-line tools</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="systems">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-microchip"></i></div>
+            <div class="skill-info">
+              <h3>Flex & Bison</h3>
+              <p>Lexical analysis, context-free grammars, parsers</p>
+            </div>
+          </div>
+          <div class="skill-card" data-category="systems">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-memory"></i></div>
+            <div class="skill-info">
+              <h3>Computer Architecture</h3>
+              <p>RISC-V, Cache conscious design, CPU hierarchies</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume / CV Section -->
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 04. Qualifications & Background</span>
+          <h2 class="section-title">Curriculum Vitae</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="resume-cta-banner">
+          <div class="banner-text">
+            <h3>Looking for a comprehensive resume document?</h3>
+            <p>Download the full PDF version or explore the interactive summary below.</p>
+          </div>
+          <div class="banner-buttons">
+            <a href="assets/cv.pdf" download="B_M_Muktadir_Wafi_CV.pdf" class="btn btn-primary" id="download-cv-btn">
+              <i class="fa-solid fa-file-arrow-down"></i> Download PDF CV
+            </a>
+            <a href="https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+            </a>
+          </div>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Education Column -->
+          <div class="timeline-column">
+            <h3 class="column-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+            
+            <div class="timeline-card">
+              <div class="card-timeline-marker"></div>
+              <span class="timeline-period">Undergraduate Studies</span>
+              <h4 class="timeline-role">Bachelor of Science in Computer Science & Engineering</h4>
+              <h5 class="timeline-org">BRAC University • Dhaka, Bangladesh (ID: 22301737)</h5>
+              <p class="timeline-desc">
+                Core Coursework: System Analysis & Design (CSE471), Compiler Design (CSE420), Machine Learning (CSE422), Operating Systems & Systems Programming (CSE321), Computer Architecture (CSE340), Data Structures & Algorithms, Database Management Systems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Key Projects & Highlights Column -->
+          <div class="timeline-column">
+            <h3 class="column-title"><i class="fa-solid fa-briefcase"></i> Project Highlights & Roles</h3>
+            
+            <div class="timeline-card">
+              <div class="card-timeline-marker"></div>
+              <span class="timeline-period">Collaborative Web Platform (CSE471)</span>
+              <h4 class="timeline-role">Backend Engineer & Core Contributor — Micro SkillShare</h4>
+              <h5 class="timeline-org">Peer-to-Peer Knowledge Sharing Web Application</h5>
+              <p class="timeline-desc">
+                Architected the standalone Node.js and Express REST API service with Mongoose data schemas, request controllers, gamified streak handlers, and Postman API verification suites.
+              </p>
+            </div>
+
+            <div class="timeline-card">
+              <div class="card-timeline-marker"></div>
+              <span class="timeline-period">Thesis Research & System Architecture</span>
+              <h4 class="timeline-role">Lead Architect — SentryAid SOS</h4>
+              <h5 class="timeline-org">Public Safety & Real-Time Emergency Response Platform</h5>
+              <p class="timeline-desc">
+                Engineered real-time emergency broadcast pipeline with Socket.IO, proximity matching via MongoDB geospatial indices, automated 5-minute escalation protocol, and predictive danger heatmaps.
+              </p>
+            </div>
+
+            <div class="timeline-card">
+              <div class="card-timeline-marker"></div>
+              <span class="timeline-period">Machine Learning (CSE422)</span>
+              <h4 class="timeline-role">ML Engineer — Hotel Booking Cancellation Prediction</h4>
+              <h5 class="timeline-org">Supervised Classification & Exploratory Data Analysis</h5>
+              <p class="timeline-desc">
+                Developed an end-to-end classification pipeline evaluating Random Forest, Decision Trees, Logistic Regression, and Naive Bayes models with Scikit-Learn.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 05. Get In Touch</span>
+          <h2 class="section-title">Connect & Collaborate</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-cards">
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/" target="_blank" rel="noopener noreferrer" class="contact-card linkedin-card">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-details">
+                <span class="contact-meta">Professional Network</span>
+                <span class="contact-main">B M Muktadir Wafi</span>
+                <span class="contact-sub">linkedin.com/in/b-m-muktadir-wafi-406b11439 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+              </div>
+            </a>
+
+            <!-- GitHub Card -->
+            <a href="https://github.com/RedRabies" target="_blank" rel="noopener noreferrer" class="contact-card github-card">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-details">
+                <span class="contact-meta">Code Repositories</span>
+                <span class="contact-main">RedRabies</span>
+                <span class="contact-sub">github.com/RedRabies <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+              </div>
+            </a>
+
+            <!-- Location Card -->
+            <div class="contact-card info-card">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-details">
+                <span class="contact-meta">Current Location</span>
+                <span class="contact-main">Dhaka, Bangladesh</span>
+                <span class="contact-sub">Open to software development & data opportunities</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-wrapper">
+            <form id="contact-form" class="contact-form">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">Have a question, feedback, or opportunity? Leave your message here.</p>
+
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-tag"></i>
+                  <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Opportunity" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-wrap textarea-wrap">
+                  <textarea id="message" name="message" rows="4" placeholder="Hello Wafi, I came across your portfolio and..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+
+              <div id="form-feedback" class="form-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-bracket">&lt;</span><span class="logo-text">Wafi</span><span class="logo-accent">.dev</span><span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Engineered with precision, powered by curiosity.</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/RedRabies" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="current-year"></span> B. M. Muktadir Wafi. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

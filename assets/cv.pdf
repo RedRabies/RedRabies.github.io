@@ -1,0 +1,75 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1001 >>
+stream
+BT
+/F1 20 Tf
+50 740 Td
+(B. M. Muktadir Wafi) Tj
+/F2 12 Tf
+0 -24 Td
+(Computer Science & Engineering | Software Developer) Tj
+0 -18 Td
+(Location: Dhaka, Bangladesh) Tj
+0 -18 Td
+(LinkedIn: https://www.linkedin.com/in/b-m-muktadir-wafi-406b11439/) Tj
+0 -18 Td
+(GitHub: https://github.com/RedRabies) Tj
+/F1 14 Tf
+0 -36 Td
+(CORE SKILLS) Tj
+/F2 11 Tf
+0 -20 Td
+(Languages: JavaScript, C/C++, Python, Java, HTML/CSS) Tj
+0 -16 Td
+(Frameworks & Backends: Node.js, Express.js, Socket.IO, React) Tj
+0 -16 Td
+(Databases & Tools: MongoDB, SQL, Git, Linux, RISC-V) Tj
+/F1 14 Tf
+0 -32 Td
+(FEATURED PROJECTS) Tj
+/F2 11 Tf
+0 -20 Td
+(1. SentryAid - Decentralized Public Safety & Emergency Network) Tj
+0 -16 Td
+(   Node.js, Express, Socket.IO, MongoDB, Geolocation & Heatmaps) Tj
+0 -20 Td
+(2. TicTacToe - Interactive Web Application) Tj
+0 -16 Td
+(   JavaScript, DOM Logic, Responsive Design) Tj
+0 -20 Td
+(3. Cache-Conscious Systems & Memory Optimization) Tj
+0 -16 Td
+(   C, Assembly, RISC-V, Cache Miss Optimization) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001304 00000 n 
+0000001379 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1449
+%%EOF
