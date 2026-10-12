@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Open email client with prefilled details
-      const mailtoLink = `mailto:afnan.jahan.prithila@g.bracu.ac.bd?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Hi Muktadir,\n\nFrom: ${name} (${email})\n\nMessage:\n${message}`)}`;
+      const mailtoLink = `mailto:b.m.muktadirwafi@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Hi Muktadir,\n\nFrom: ${name} (${email})\n\nMessage:\n${message}`)}`;
       
       formFeedback.className = 'form-feedback success';
       formFeedback.innerHTML = `<i class="fa-solid fa-circle-check"></i> Thank you, <strong>${name}</strong>! Your email draft has been generated.`;
